@@ -8,18 +8,19 @@ The purpose of this analysis is too evaluate the performance of multiple stocks 
 
 ### Results
 #### Process for Obtaining Results
-The process for recommending which stocks performed required a VBA macro that would loop through every row of the data and tally up the volume and determine the yearly return for each stock in the database by hardcoding the database used into the code.  The second process required writing the code a little more "efficiently" to reduce any redundancy in the coding and to avoid hardcoding the database information and instead entering the information requested by a message box prompt.
+The process for recommending which stocks performed required a VBA macro that would loop through every row of the data and tally up the volume and determine the yearly return for each stock in the database by hardcoding the database used into the code. The second process required writing the code a little more "efficiently" to reduce any redundancy in the coding and to avoid hardcoding the database information and instead entering the information requested by a message box prompt.
 
 #### Runtime Data
-for 2018 stocks, the refactored script's runtime was discovered to be 28.9% slower than the Mod 2 original script; and, for 2017 stocks, the refactored script runtime was 4.6% slower than the Mod 2 original script code.  It is my assumption that the position of the conditional code statements within the FOR loops to iterate over the rows as well as the dynamic input of the year into the macro via the message box makes a difference in runtime versus when the year is hardcoded within the macro code. (See table below for runtimes)
+for 2018 stocks, the refactored script's runtime was discovered to be 28.9% slower than the Mod 2 original script; and, for 2017 stocks, the refactored script runtime was 4.7% slower than the Mod 2 original script code. It is my assumption that the position of the conditional code statements within the FOR loops to iterate over the rows as well as the dynamic input of the year into the macro via the message box makes a difference in runtime versus when the year is hardcoded within the macro code. (See table below for runtimes)
 
                     2018            2017
+  Refactored:    1.671875        1.578125                  
                   
-  Refactored       1.660156        1.566406
+  Refactored:    1.671875        1.578125
  
-  Original         1.230469        1.507813
+  Original         1.296875        1.507813
   
-  %Diff               28.9%             4.6%
+  %Diff               28.9%             4.7%
 
 
 - 2018 Refactored script and runtime
