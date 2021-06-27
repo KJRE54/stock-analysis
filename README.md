@@ -24,10 +24,10 @@ for 2018 stocks, the refactored script's runtime was discovered to be 28.9% slow
 
 - 2018 Refactored script and runtime
 ![MOD 2_VBA_Challenge_2018.png](https://github.com/KJRE54/stock-analysis/blob/main/MOD%202_VBA_Challenge_2018.png)
-- 2017 Refactored script and runtime
-![MOD 2_VBA_Challenge_2017.png](https://github.com/KJRE54/stock-analysis/blob/main/MOD%202_VBA_Challenge_2017.png)
 - 2018 Original script and runtime
 ![MOD 2_VBA_Lesson_2018.png](https://github.com/KJRE54/stock-analysis/blob/main/MOD%202_VBA_Lesson_2018.png)
+- 2017 Refactored script and runtime
+![MOD 2_VBA_Challenge_2017.png](https://github.com/KJRE54/stock-analysis/blob/main/MOD%202_VBA_Challenge_2017.png)
 - 2017 Original script and runtime
 ![MOD 2_VBA_Lesson_2017.png](https://github.com/KJRE54/stock-analysis/blob/main/MOD%202_VBA_Lesson_2017.png)
 
