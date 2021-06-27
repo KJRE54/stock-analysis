@@ -26,7 +26,7 @@ for 2018 stocks, the refactored script's runtime was discovered to be 28.9% slow
 
 
 ### Summary In Brief
-In this particular code, the advantages of the refactored code simplified the loop process as well as made the code more readable.  However, the refactored code made running the script a bit slower.  One might generalize that because the code required user input, that may have caused a slow delay in the refactored code's runtime.
+In this particular code, the advantages of the refactored code simplified the nested loop process as well as made the code more readable.  However, in this project, it could be inferred the disadvantage of the refactored code made the script run a bit slower than the original.  One might generalize that because the code required user input, that may have caused a slow delay in the refactored code's runtime.
 
 
 
