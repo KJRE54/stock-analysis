@@ -13,21 +13,24 @@ The process for recommending which stocks performed required a VBA macro that wo
 #### Runtime Data
 for 2018 stocks, the refactored script's runtime was discovered to be 28.9% slower than the Mod 2 original script; and, for 2017 stocks, the refactored script runtime was 4.6% slower than the Mod 2 original script code.  It is my assumption that the position of the conditional code statements within the FOR loops to iterate over the rows as well as the dynamic input of the year into the macro via the message box makes a difference in runtime versus when the year is hardcoded within the macro code. (See table below for runtimes)
 
-                    2018            2017          %Diff
+                    2018            2017
                   
-  Refactored       1.660156|        1.566406|     28.9%
+  Refactored       1.660156        1.566406
  
-  Original         1.230469|        1.507813|      4.6%
+  Original         1.230469        1.507813
+  
+  %Diff               28.9%             4.6%
 
 
-- Add photos of stock analysis & code
-
+- 2018 Refactored script and runtime
+![MOD 2_VBA_Challenge_2018.png](https://github.com/KJRE54/stock-analysis/blob/main/MOD%202_VBA_Challenge_2018.png)
+- 2017 Refactored script and runtime
 ![MOD 2_VBA_Challenge_2017.png](https://github.com/KJRE54/stock-analysis/blob/main/MOD%202_VBA_Challenge_2017.png)
-
+- 2018 Original script and runtime
+![MOD 2_VBA_Lesson_2018.png](https://github.com/KJRE54/stock-analysis/blob/main/MOD%202_VBA_Lesson_2018.png)
+- 2017 Original script and runtime
+![MOD 2_VBA_Lesson_2017.png](https://github.com/KJRE54/stock-analysis/blob/main/MOD%202_VBA_Lesson_2017.png)
 
 ### Summary In Brief
 In this particular code, the advantages of the refactored code simplified the nested loop process as well as made the code more readable.  However, in this project, it could be inferred the disadvantage of the refactored code made the script run a bit slower than the original.  One might generalize that because the code required user input, that may have caused a slow delay in the refactored code's runtime.
 
-
-
-![Module3ChallengeVSCode](https://user-images.githubusercontent.com/79073778/111101610-a6463a00-8520-11eb-94a9-df091911fa8c.png)
