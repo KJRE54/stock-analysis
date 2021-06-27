@@ -13,11 +13,11 @@ The process for recommending which stocks performed required a VBA macro that wo
 #### Runtime Data
 for 2018 stocks, the refactored script's runtime was discovered to be 28.9% slower than the Mod 2 original script; and, for 2017 stocks, the refactored script runtime was 4.6% slower than the Mod 2 original script code.  It is my assumption that the position of the conditional code statements within the FOR loops to iterate over the rows as well as the dynamic input of the year into the macro via the message box makes a difference in runtime versus when the year is hardcoded within the macro code. (See table below for runtimes)
 
-                  2018            2017          %Diff
+                    2018            2017          %Diff
                   
- Refactored       1.660156        1.566406        28.9%
+  Refactored       1.660156|        1.566406|     28.9%
  
- Original         1.230469        1.507813         4.6%
+  Original         1.230469|        1.507813|      4.6%
 
 
 - Add photos of stock analysis & code
