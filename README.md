@@ -22,7 +22,7 @@ for 2018 stocks, the refactored script's runtime was discovered to be 28.9% slow
 
 - Add photos of stock analysis & code
 
-![Module3PyPollTerminalResults](https://user-images.githubusercontent.com/79073778/111101194-c6292e00-851f-11eb-8dfb-4ebd3dfcc27a.png)
+![MOD 2_VBA_Challenge_2017.png](https://github.com/KJRE54/stock-analysis/blob/main/MOD%202_VBA_Challenge_2017.png)
 
 
 ### Summary In Brief
